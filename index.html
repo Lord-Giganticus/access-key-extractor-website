@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>Access Key Extractor</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+  <table class="box">
+    <tr><th>
+      Access Key Extractor
+    </th></tr>
+    <tr><td class="boxcontent">
+      <form name="uploadForm">
+        <table>
+          <input id="uploadInput" type="file" name="myFiles"><br>
+          <button type="button" onclick="decode()">Get Access Keys</button> <spam id="result" style="color:rgb(255, 255, 255)"></spam><br>
+          <button type="button" id="btn" onclick="downloadkeys()">Download Keys</button>
+        </table>
+      </form>
+    </td></tr>
+  </table>
+  <table class="box">
+		<tr><td class="boxcontent" style="color:rgb(255, 255, 255)">
+		&copy; 2022 Lord-Giganticus, inspired by <a href="https://github.com/PretendoNetwork/access-key-extractor" target="_blank">PretendoNetwork/access-key-extractor</a>
+		</td></tr>
+	</table>
+  <script src="index.js">
+  </script>
+</body>
+</html>
